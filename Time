@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int n, hours, minutes, seconds;
+    
+    n = 3680;
+    
+    hours = n / 3600;
+    n %= 3600;
+    minutes = n / 60;
+    seconds = n % 60;
+    
+    printf("З початку доби пройшло %d годин %d хвилин %d секунд\n", hours, minutes, seconds);
+    
+    return 0;
+    
+}
