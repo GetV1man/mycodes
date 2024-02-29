@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    //Вказуємо задані числа
+    int num1, num2, num3;
+    int max;
+
+    // Перевіряємо, яке число є найбільшим
+    if (num1 >= num2 && num1 >= num3) {
+        max = num1;
+    } else if (num2 >= num1 && num2 >= num3) {
+        max = num2;
+    } else {
+        max = num3;
+    }
+
+    // Виводимо максимальне число
+    printf("Максимальне число: %d\n", max);
+
+    return 0;
+}
