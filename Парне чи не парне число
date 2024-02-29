@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+
+    //Вводимо число
+    int number;
+
+    // Перевірка, чи число ділиться на 2 без залишку
+    if (number % 2 == 0) {
+        printf("%d є парним числом.\n", number);
+    } else {
+        printf("%d не є парним числом.\n", number);
+    }
+
+    return 0;
+}
